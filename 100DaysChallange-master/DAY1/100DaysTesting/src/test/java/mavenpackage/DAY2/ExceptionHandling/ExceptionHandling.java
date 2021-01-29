@@ -1,4 +1,4 @@
-package mavenpackage.ExceptionHandling;
+package mavenpackage.DAY2.ExceptionHandling;
 // Types of exceptions
 /* Checked Exception
 Unchecked Exception

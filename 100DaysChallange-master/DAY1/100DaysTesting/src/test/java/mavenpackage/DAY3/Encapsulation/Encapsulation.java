@@ -1,4 +1,4 @@
-package mavenpackage.Encapsulation;
+package mavenpackage.DAY3.Encapsulation;
 // The whole idea behind encapsulation is to hide the implementation details from users
 
 // Encapsulated code should have following characteristics:

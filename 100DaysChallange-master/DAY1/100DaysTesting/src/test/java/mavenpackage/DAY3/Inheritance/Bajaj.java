@@ -1,4 +1,4 @@
-package mavenpackage.Inheritance;
+package mavenpackage.DAY3.Inheritance;
 // Inheritance is an important pillar of OOP
 // It is the mechanism in java by which one class is allow to inherit the features(fields and methods) of another class.
 
@@ -8,17 +8,19 @@ package mavenpackage.Inheritance;
 // The keyword used for inheritance is extends.
 
 
-    public  class Animal {
+    public  class Bajaj {
 
-        String name;
-        public void eat() {
-          System.out.println("I can eat");
-        }
+      String Model;
+
+      public void Type() {
+        System.out.println("Two Wheeler");
       }
-      class Dog extends Animal {
+    }
+
+    class VehicleType extends Bajaj {
       
-        public void display() {
-          System.out.println("My name is " + name);
+        public void Model() {
+          System.out.println("Model is " + Model);
         }
       }
       
@@ -26,10 +28,10 @@ package mavenpackage.Inheritance;
           
         public static void main(String[] args) {
       
-          Dog labrador = new Dog();
-          labrador.name = "Tommy";
-          labrador.display();
-          labrador.eat();
+          VehicleType Vehicle= new VehicleType();
+          Vehicle.Model = "Pulsar";
+          Vehicle.Type();
+          Vehicle.Model();
       
         }
       }

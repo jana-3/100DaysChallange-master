@@ -1,4 +1,4 @@
-package mavenpackage.Abstract;
+package mavenpackage.DAY1.Abstraction;
 
 abstract class Abstract {
 
