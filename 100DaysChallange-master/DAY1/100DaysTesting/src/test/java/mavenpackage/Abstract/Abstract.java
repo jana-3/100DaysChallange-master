@@ -1,4 +1,4 @@
-package mavenpackage;
+package mavenpackage.Abstract;
 
 abstract class Abstract {
 
@@ -23,7 +23,7 @@ abstract class Abstract {
           }
       }
       class TestAbstraction{
-    public static void main(String[] args) {
+    public static void main(String []args) {
     FirstEmployee details= new FirstEmployee();
     details.employeeDetails("jana",101,"permanent");
     details.transportation("available");

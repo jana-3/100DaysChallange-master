@@ -1,4 +1,4 @@
-package mavenpackage;
+package mavenpackage.Encapsulation;
 public class EncapsulationData {
 
     public static void main(String args[]) {

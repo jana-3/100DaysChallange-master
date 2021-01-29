@@ -1,4 +1,4 @@
-package mavenpackage;
+package mavenpackage.ExceptionHandling;
 // Types of exceptions
 /* Checked Exception
 Unchecked Exception
@@ -27,7 +27,7 @@ public class ExceptionHandling {
                       {  
                        System.out.println("Parent Exception occurs");  
                       }             
-                   System.out.println("rest of the code");    
+                   
         }  
     }  
     

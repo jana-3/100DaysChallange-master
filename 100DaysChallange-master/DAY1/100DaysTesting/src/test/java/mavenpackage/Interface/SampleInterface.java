@@ -1,4 +1,4 @@
-package mavenpackage;
+package mavenpackage.Interface;
 
 interface SampleInterface{
 
